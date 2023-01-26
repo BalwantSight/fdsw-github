@@ -24,9 +24,21 @@ body {
   padding-left: 2rem;
 }
 
+.desafios {
+  background-image: url("../img/sagan01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.desafios-title {
+  width: 50%;
+  color: #ffab44;
+}
+
 /* Mis trabajos */
 
-#Mis-trabajos .image-top {
+#Work .image-top {
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,13 +47,13 @@ body {
 
 /* Contacto */
 
-#Contacto form label {
+#Contact form label {
   font-weight: 700;
   color: #373a3c;
 }
 
 @media (max-width: 768px) {
-  #Contacto form label {
+  #Contact form label {
     font-weight: 400;
   }
 
