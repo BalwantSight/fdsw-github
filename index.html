@@ -1,221 +1,300 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Pablo Elizondo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sagan el Gato</title>
-    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
-        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://kit.fontawesome.com/b45677e7c6.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./assets/css/styles.css">
-</head>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/b45677e7c6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Navbar Section -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container-fluid">
-            <img class="logo-navbar" src="./assets/img/logo.png" alt="Logo Sagan">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de Sagan</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Desafíos de Pablo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <img class="logo-navbar" src="./assets/img/logo.png" alt="Logo Sagan" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">Acerca de Sagan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Work">Desafíos de Pablo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contacto</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <!-- Hero Section -->
     <header id="Hero-Section" class="text-light text-end py-5 mt-5">
-        <div class="container">
-            <div class="ms-auto col-12 col-md-7 ">
-                <h1 class="display-1 fw-bold my-5">
-                    La mejor compañia<br>para la programación
-                </h1>
-                <p class="my-5">
-                    Sin duda que convivir con un gato como yo es una de las mejores cosas que te pueden pasar en la
-                    vida. Fuera de todas las alegrías que entrego a los humanos a mi cuidado, les brindo una serie de
-                    beneficios que le han sido de crucial ayuda a Pablo en sus primeros pasos en la programación.
-                </p>
-                <div class="mb-5 pb-5">
-                    <button class="btn btn-lg btn-outline-light text-warning me-4">Sus Desafíos</button>
-                    <button class="btn btn-lg btn-warning text-dark">Contacto</button>
-                </div>
-            </div>
+      <div class="container">
+        <div class="ms-auto col-12 col-md-7">
+          <h1 class="display-1 fw-bold my-5">
+            La mejor compañia<br />para la programación
+          </h1>
+          <p class="my-5">
+            Sin duda que convivir con un gato como yo es una de las mejores
+            cosas que te pueden pasar en la vida. Fuera de todas las alegrías
+            que entrego a los humanos a mi cuidado, les brindo una serie de
+            beneficios que le han sido de crucial ayuda a Pablo en sus primeros
+            pasos en la programación.
+          </p>
+          <div class="mb-5 pb-5">
+            <button class="btn btn-lg btn-outline-light text-warning me-4">
+              Sus Desafíos
+            </button>
+            <button class="btn btn-lg btn-warning text-dark">Contacto</button>
+          </div>
         </div>
+      </div>
     </header>
 
     <!-- About Section -->
     <section id="About" class="container text-center p-2 my-5">
-        <h2 class="subtitle display-3 fw-bold my-4">Acerca de mi</h2>
-        <p class="my-4">
-            Soy Sagan, un gato doméstico.<br>
-            Por las mañanas y gran parte de la tarde duermo, pero por la<br>tarde y algunas noches acompaño a mi familia
-            humana mientras<br>ellos trabajan en sus sitios web y aplicaciones.
-        </p>
-        <div class="row">
-            <div class="col-12 col-md-4">
-                <i class="fas fa-volume-high fa-4x my-3"></i>
-                <h3 class="my-3 fw-bold">Ronrroneo relajante</h3>
-                <p class="my-3">
-                    Para cuando Pablo, el humano a mi cuidado, trabaja en sus proyectos, yo lo acompaño cerca de su mesa
-                    de trabajo ronrroneando. Sé que eso lo relaja y lo hace generar mejores líneas de código.
-                </p>
-            </div>
-            <div class="col-12 col-md-4">
-                <i class="fas fa-wand-sparkles fa-4x my-3"></i>
-                <h3 class="my-3 fw-bold">Reflejos instantáneos</h3>
-                <p class="my-3">
-                    Mis reacciones son siempre certeras y pocas veces suelo desiquilibrarme. Estas condiciones hacen que
-                    esté siempre alerta sobre cómo y qué hace Pablo cuando está en sus tareas y trabajos de
-                    programación.
-                </p>
-            </div>
-            <div class="col-12 col-md-4">
-                <i class="fas fa-heart-circle-bolt fa-4x my-3"></i>
-                <h3 class="my-3 fw-bold">Acicalamiento terapéutico</h3>
-                <p class="my-3">
-                    Luego de comer siempre toca acicalarme, sin embargo, algunas veces también dejo que Pablo me
-                    acicale. Eso le brinda tranquilidad y lo enfoca en el pensamiento lógico que deben tener los
-                    programadores.
-                </p>
-            </div>
+      <h2 class="subtitle display-3 fw-bold my-4">Acerca de mi</h2>
+      <p class="my-4">
+        Soy Sagan, un gato doméstico.<br />
+        Por las mañanas y gran parte de la tarde duermo, pero por la<br />tarde
+        y algunas noches acompaño a mi familia humana mientras<br />ellos
+        trabajan en sus sitios web y aplicaciones.
+      </p>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <i class="fas fa-volume-high fa-4x my-3"></i>
+          <h3 class="my-3 fw-bold">Ronrroneo relajante</h3>
+          <p class="my-3">
+            Para cuando Pablo, el humano a mi cuidado, trabaja en sus proyectos,
+            yo lo acompaño cerca de su mesa de trabajo ronrroneando. Sé que eso
+            lo relaja y lo hace generar mejores líneas de código.
+          </p>
         </div>
+        <div class="col-12 col-md-4">
+          <i class="fas fa-wand-sparkles fa-4x my-3"></i>
+          <h3 class="my-3 fw-bold">Reflejos instantáneos</h3>
+          <p class="my-3">
+            Mis reacciones son siempre certeras y pocas veces suelo
+            desiquilibrarme. Estas condiciones hacen que esté siempre alerta
+            sobre cómo y qué hace Pablo cuando está en sus tareas y trabajos de
+            programación.
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <i class="fas fa-heart-circle-bolt fa-4x my-3"></i>
+          <h3 class="my-3 fw-bold">Acicalamiento terapéutico</h3>
+          <p class="my-3">
+            Luego de comer siempre toca acicalarme, sin embargo, algunas veces
+            también dejo que Pablo me acicale. Eso le brinda tranquilidad y lo
+            enfoca en el pensamiento lógico que deben tener los programadores.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Works Section -->
     <section class="desafios">
-        <section id="Work" class="text-center p-2 my-5">
-            <h2 class="desafios-title display-3 fw-bold text-center my-4">Sus Desafíos</h2>
-            <p class="my-4 text-warning">Una muestra de sus trabajos realizados en mi compañía para el Curso
-                de<br>"Fundamentos del Desarrollo Web"
-                de la
-                Academia de Talentos<br>Digitales Desafío LATAM. </p>
-            <div class="container__cards col-12 col-sm-4">
-                <div class="card">
-                    <div class="cover__card">
-                        <a title="Miles Davis - CV" href="https://github.com/BalwantSight/Miles-Davis-CV"
-                            target="_blank"><img src="./assets/img/card-1.jpg" alt="Proyecto Miles Davis - Github"></a>
-                    </div>
-                    <h2>Miles Davis CV<br>(Inicio en HTML)</h2>
-                    <p>Ejercicio desarrollado en la segunda semana para el Curso Fundamentos Desarrollo Web (G21) del
-                        Desafío LATAM. El ejercicio consiste en iniciar el aprendizaje de HTML</p>
-                    <hr>
-                    <div class="down__card">
-                        <h3 class="user__name">Desafío Latam (G32)</h3>
-                        <i>Semana del 19 de Diciembre del 2023</i>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="cover__card">
-                        <a title="PodcastSound - Landig Page"
-                            href="https://github.com/BalwantSight/PodcastSound-Landing-Page-" target="_blank"><img
-                                src="./assets/img/card-2.jpg" alt="Proyecto Miles Davis - Github"></a>
-                    </div>
-                    <h2>PodcastSound - Landig Page<br>(Inicios con CSS)</h2>
-                    <p>Ejercicio desarrollado en la tercera semana para el Curso Fundamentos Desarrollo Web (G21) del
-                        Desafío LATAM. El ejercicio consiste en iniciar el aprendizaje del CSS.</p>
-                    <hr>
-                    <div class="down__card">
-                        <h3 class="user__name">Desafío Latam (G32)</h3>
-                        <i>Semana del 26 de Diciembre del 2023</i>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="cover__card">
-                        <a title="Petroglifos Chilenos - Landig Page"
-                            href="https://github.com/BalwantSight/Petroglifos-Landing-Page-" target="_blank"><img
-                                src="./assets/img/card-3.jpg" alt="Proyecto Petroglifos Chilenos - Github"></a>
-                    </div>
-                    <h2>Petroglifos - Landig Page (Posicionamiento con CSS) </h2>
-                    <p>Ejercicio desarrollado en la cuarta semana para el Curso Fundamentos Desarrollo Web (G21) del
-                        Desafío LATAM. El ejercicio consiste en iniciar el aprendizaje en el Modelo de Cajas y
-                        Posicionamiento con CSS.</p>
-                    <hr>
-                    <div class="down__card">
-                        <h3 class="user__name">Desafío Latam (G32)</h3>
-                        <i>Semana del 02 de Enero del 2023</i>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="cover__card">
-                        <a title="CUPPON- Desafío LATAM" href="https://github.com/BalwantSight/Cuppon-LATAM-"
-                            target="_blank"><img src="./assets/img/card-4.png"
-                                alt="Proyecto CUPPON Desafio LATAM - Github"></a>
-                    </div>
-                    <h2>CUPPON (Desafío LATAM)<br>(Inicio con Bootstrap)</h2>
-                    <p>Ejercicio desarrollado en la quinta semana para el Curso Fundamentos Desarrollo Web (G21) del
-                        Desafío LATAM. El ejercicio consiste en iniciar el aprendizaje en BootStrap.</p>
-                    <hr>
-                    <div class="down__card">
-                        <h3 class="user__name">Desafío Latam (G32)</h3>
-                        <i>Semana del 09 de Enero del 2023</i>
-                    </div>
-                </div>
+      <section id="Work" class="text-center p-2 my-5">
+        <h2 class="desafios-title display-3 fw-bold text-center my-4">
+          Sus Desafíos
+        </h2>
+        <p class="my-4 text-warning">
+          Una muestra de sus trabajos realizados en mi compañía para el Curso
+          de<br />"Fundamentos del Desarrollo Web" de la Academia de Talentos<br />Digitales
+          Desafío LATAM.
+        </p>
+        <div class="container__cards col-12 col-sm-4">
+          <div class="card">
+            <div class="cover__card">
+              <a
+                title="Miles Davis - CV"
+                href="https://github.com/BalwantSight/Web-Miles-David-Ejercicio-HTML"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="./assets/img/card-1.jpg"
+                  alt="Proyecto Miles Davis - Github"
+              /></a>
             </div>
-        </section>
+            <h2>Miles Davis CV<br />(Inicio en HTML)</h2>
+            <p>
+              Ejercicio desarrollado en la segunda semana para el Curso
+              Fundamentos Desarrollo Web (G21) del Desafío LATAM. El ejercicio
+              consiste en iniciar el aprendizaje de HTML
+            </p>
+            <hr />
+            <div class="down__card">
+              <h3 class="user__name">Desafío Latam (G32)</h3>
+              <i>Semana del 19 de Diciembre del 2023</i>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cover__card">
+              <a
+                title="PodcastSound - Landig Page"
+                href="https://github.com/BalwantSight/Web-PodcastSound-Ejercicio-CSS"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="./assets/img/card-2.jpg"
+                  alt="Proyecto Miles Davis - Github"
+              /></a>
+            </div>
+            <h2>PodcastSound - Landig Page<br />(Inicios con CSS)</h2>
+            <p>
+              Ejercicio desarrollado en la tercera semana para el Curso
+              Fundamentos Desarrollo Web (G21) del Desafío LATAM. El ejercicio
+              consiste en iniciar el aprendizaje del CSS.
+            </p>
+            <hr />
+            <div class="down__card">
+              <h3 class="user__name">Desafío Latam (G32)</h3>
+              <i>Semana del 26 de Diciembre del 2023</i>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cover__card">
+              <a
+                title="Petroglifos Chilenos - Landig Page"
+                href="https://github.com/BalwantSight/Web-Iguana-Page-Ejercicio-Posicionamiento"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="./assets/img/card-3.jpg"
+                  alt="Proyecto Petroglifos Chilenos - Github"
+              /></a>
+            </div>
+            <h2>
+              Petroglifos - Landig Page (Posicionamienrel="noopener"to con CSS)
+            </h2>
+            <p>
+              Ejercicio desarrollado en la cuarta semana para el Curso
+              Fundamentos Desarrollo Web (G21) del Desafío LATAM. El ejercicio
+              consiste en iniciar el aprendizaje en el Modelo de Cajas y
+              Posicionamiento con CSS.
+            </p>
+            <hr />
+            <div class="down__card">
+              <h3 class="user__name">Desafío Latam (G32)</h3>
+              <i>Semana del 02 de Enero del 2023</i>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cover__card">
+              <a
+                title="CUPPON- Desafío LATAM"
+                href="https://github.com/BalwantSight/Web-Cuppon-Ejercicio-Bootstrap"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="./assets/img/card-4.png"
+                  alt="Proyecto CUPPON Desafio LATAM - Github"
+              /></a>
+            </div>
+            <h2>CUPPON (Desafío LATAM)<br />(Inicio con Bootstrap)</h2>
+            <p>
+              Ejercicio desarrollado en la quinta semana para el Curso
+              Fundamentos Desarrollo Web (G21) del Desafío LATAM. El ejercicio
+              consiste en iniciar el aprendizaje en BootStrap.
+            </p>
+            <hr />
+            <div class="down__card">
+              <h3 class="user__name">Desafío Latam (G32)</h3>
+              <i>Semana del 09 de Enero del 2023</i>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
 
     <!-- Contact Section -->
     <section id="Contact" class="container my-5">
-        <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
-        <p class="text-center my-4 d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Doloribus
-            sapiente, autem delectus totam expedita
-            animi corporis dolorem qui magnam, aspernatur officiis quasi culpa tempora est commodi. Voluptate beatae
-            tempora quaerat?</p>
-        <form>
-            <div class="form-group mb-4">
-                <label class="mb-2">Nombre</label>
-                <input class="form-control" placeholder="Nombre">
-            </div>
-            <div class="form-group mb-4">
-                <label class="mb-2">Correo electrónico</label>
-                <input class="form-control" placeholder="Correo electrónico" />
-            </div>
-            <div class="form-group">
-                <label class="mb-2">Mensaje</label>
-                <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
-            </div>
-            <div class="my-3 text-end">
-                <button class="btn btn-info text-light">Enviar</button>
-            </div>
-        </form>
+      <h2 class="subtitle display-4 fw-bold text-center my-4">Contáctame</h2>
+      <p class="text-center my-4 d-none d-md-block">
+        Para ponerte en contacto con Pablo, puedes escribirle con el siguiente
+        formulario.
+      </p>
+      <form>
+        <div class="form-group mb-4">
+          <label class="mb-2">Nombre</label>
+          <input class="form-control" placeholder="Nombre" />
+        </div>
+        <div class="form-group mb-4">
+          <label class="mb-2">Correo electrónico</label>
+          <input class="form-control" placeholder="Correo electrónico" />
+        </div>
+        <div class="form-group">
+          <label class="mb-2">Mensaje</label>
+          <textarea
+            class="form-control"
+            placeholder="Escribe aquí tu mensaje"
+          ></textarea>
+        </div>
+        <div class="my-3 text-end">
+          <button class="btn btn-dark text-warning">Enviar</button>
+        </div>
+      </form>
     </section>
 
     <!-- Footer Section -->
     <footer class="bg-dark text-center text-light p-4">
-        <p class="mb-0">Sagan el Gato 2023. Todos los derechos reservados.</p>
+      <p class="mb-0">Sagan el Gato 2023. Todos los derechos reservados.</p>
     </footer>
 
     <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
