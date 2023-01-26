@@ -18,34 +18,33 @@
         integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/b45677e7c6.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
 <body>
     <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/img/logo.png" class="img-fluid">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <img class="logo-navbar" src="./assets/img/logo.png" alt="Logo Sagan">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de mi</a>
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Desafíos</a>
+                        <a class="nav-link" href="#">Acerca de Sagan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Desafíos de Pablo</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contacto</a>
                     </li>
-
                 </ul>
-
             </div>
         </div>
     </nav>
@@ -112,56 +111,69 @@
     <section class="desafios">
         <section id="Work" class="text-center p-2 my-5">
             <h2 class="desafios-title display-3 fw-bold text-center my-4">Sus Desafíos</h2>
-            <div class="row">
-                <div class="col-12 col-sm-4 py-2">
-                    <div class="card">
-                        <div class="image-top" style="background-image: url(assets/img/card-1.jpg)"></div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Asado en la Patagonia</h5>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Explicabo iure sint, perspiciatis distinctio molestias nihil
-                                repudiandae neque rem adipisci repellendus libero illo quo
-                                blanditiis, velit quasi ad, recusandae voluptates officia.
-                            </p>
-                            <button type="button" class="btn btn-outline-info">
-                                Ver más
-                            </button>
-                        </div>
+            <p class="my-4 text-warning">Una muestra de sus trabajos realizados en mi compañía para el Curso
+                de<br>"Fundamentos del Desarrollo Web"
+                de la
+                Academia de Talentos<br>Digitales Desafío LATAM. </p>
+            <div class="container__cards col-12 col-sm-4">
+                <div class="card">
+                    <div class="cover__card">
+                        <a title="Miles Davis - CV" href="https://github.com/BalwantSight/Miles-Davis-CV"
+                            target="_blank"><img src="./assets/img/card-1.jpg" alt="Proyecto Miles Davis - Github"></a>
+                    </div>
+                    <h2>Miles Davis CV<br>(Inicio en HTML)</h2>
+                    <p>Ejercicio desarrollado en la segunda semana para el Curso Fundamentos Desarrollo Web (G21) del
+                        Desafío LATAM. El ejercicio consiste en iniciar el aprendizaje de HTML</p>
+                    <hr>
+                    <div class="down__card">
+                        <h3 class="user__name">Desafío Latam (G32)</h3>
+                        <i>Semana del 19 de Diciembre del 2023</i>
                     </div>
                 </div>
-                <div class="col-12 col-sm-4 py-2">
-                    <div class="card">
-                        <div class="image-top" style="background-image: url(assets/img/card-2.jpg)"></div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Papas del fin del mundo</h5>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum,
-                                consequatur quos error fuga excepturi quo. Laudantium optio
-                                pariatur laboriosam modi, ea molestias?
-                            </p>
-                            <button type="button" class="btn btn-outline-info">
-                                Ver más
-                            </button>
-                        </div>
+                <div class="card">
+                    <div class="cover__card">
+                        <a title="PodcastSound - Landig Page"
+                            href="https://github.com/BalwantSight/PodcastSound-Landing-Page-" target="_blank"><img
+                                src="./assets/img/card-2.jpg" alt="Proyecto Miles Davis - Github"></a>
+                    </div>
+                    <h2>PodcastSound - Landig Page<br>(Inicios con CSS)</h2>
+                    <p>Ejercicio desarrollado en la tercera semana para el Curso Fundamentos Desarrollo Web (G21) del
+                        Desafío LATAM. El ejercicio consiste en iniciar el aprendizaje del CSS.</p>
+                    <hr>
+                    <div class="down__card">
+                        <h3 class="user__name">Desafío Latam (G32)</h3>
+                        <i>Semana del 26 de Diciembre del 2023</i>
                     </div>
                 </div>
-                <div class="col-12 col-sm-4 py-2">
-                    <div class="card">
-                        <div class="image-top" style="background-image: url(assets/img/card-3.jpg)"></div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Salmones de Alaska</h5>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Obcaecati facere quibusdam sint id laborum magni velit ducimus
-                                corporis facilis qui architecto dolor, accusamus eveniet
-                                exercitationem fugit. Quod autem neque ducimus.
-                            </p>
-                            <button type="button" class="btn btn-outline-info">
-                                Ver más
-                            </button>
-                        </div>
+                <div class="card">
+                    <div class="cover__card">
+                        <a title="Petroglifos Chilenos - Landig Page"
+                            href="https://github.com/BalwantSight/Petroglifos-Landing-Page-" target="_blank"><img
+                                src="./assets/img/card-3.jpg" alt="Proyecto Petroglifos Chilenos - Github"></a>
+                    </div>
+                    <h2>Petroglifos - Landig Page (Posicionamiento con CSS) </h2>
+                    <p>Ejercicio desarrollado en la cuarta semana para el Curso Fundamentos Desarrollo Web (G21) del
+                        Desafío LATAM. El ejercicio consiste en iniciar el aprendizaje en el Modelo de Cajas y
+                        Posicionamiento con CSS.</p>
+                    <hr>
+                    <div class="down__card">
+                        <h3 class="user__name">Desafío Latam (G32)</h3>
+                        <i>Semana del 02 de Enero del 2023</i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cover__card">
+                        <a title="CUPPON- Desafío LATAM" href="https://github.com/BalwantSight/Cuppon-LATAM-"
+                            target="_blank"><img src="./assets/img/card-4.png"
+                                alt="Proyecto CUPPON Desafio LATAM - Github"></a>
+                    </div>
+                    <h2>CUPPON (Desafío LATAM)<br>(Inicio con Bootstrap)</h2>
+                    <p>Ejercicio desarrollado en la quinta semana para el Curso Fundamentos Desarrollo Web (G21) del
+                        Desafío LATAM. El ejercicio consiste en iniciar el aprendizaje en BootStrap.</p>
+                    <hr>
+                    <div class="down__card">
+                        <h3 class="user__name">Desafío Latam (G32)</h3>
+                        <i>Semana del 09 de Enero del 2023</i>
                     </div>
                 </div>
             </div>
