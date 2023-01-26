@@ -139,13 +139,13 @@ body {
 
 /* Contacto */
 
-#Contact form label {
+#Contacto > form label {
   font-weight: 700;
   color: #373a3c;
 }
 
 @media (max-width: 768px) {
-  #Contact form label {
+  #Contacto form label {
     font-weight: 400;
   }
 
